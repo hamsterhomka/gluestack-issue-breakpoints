@@ -3,7 +3,7 @@
 import { Box, Text, useMedia } from '@gluestack-ui/themed'
 
 export default function Home() {
-  // set the height to be more than the screen width in order to see the scrollbar
+  // set the height to be more than the screen height in order to see the scrollbar
   return (
     <main style={ { height: 3000 } }>
       <Boxes />
